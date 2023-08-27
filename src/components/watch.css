@@ -1,0 +1,39 @@
+.watch {
+  width: 100%;
+  padding: 100px 0px;
+  background-image: url(../imgs/watch.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.watch .container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.watch .row {
+  text-align: center;
+  width: 70%;
+}
+.watch .row div {
+  text-align: center;
+  width: 100%;
+}
+.watch .row div h1 {
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: #71152a;
+}
+.watch .row div a {
+  color: #71152a;
+  font-size: 20px;
+  text-decoration: none;
+}
+@media (max-width: 768px) {
+  .watch .row div h1 {
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 25px;
+    color: #71152a;
+  }
+}

@@ -1,0 +1,62 @@
+.explore {
+  padding: 60px 0px;
+}
+.explore .head {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.explore .head h1 {
+  font-weight: 600;
+  color: #71152a;
+  margin-bottom: 20px;
+}
+
+.explore .head p {
+  width: 750px !important;
+  font-weight: 400;
+}
+.explore .row {
+  margin: 20px 0px;
+}
+.explore .row .food {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.explore .row .food img {
+  width: 100%;
+  border-radius: 6px;
+}
+.explore .row .food h6 {
+  margin-top: 15px;
+  font-size: 20px;
+  margin-left: 5px;
+}
+.explore .row .food .time {
+  color: rgb(164, 161, 161);
+  margin-left: 5px;
+}
+.explore .row .food .price {
+  font-size: 20px;
+  color: #71152a;
+  margin-left: 5px;
+}
+
+.explore .row .food button {
+  background-color: #ab3550 !important;
+  color: white;
+  font-size: 20px;
+  padding: 5px 10px;
+  border: 3px solid #ab3550;
+  border-radius: 0 !important;
+  margin-right: 20px;
+  text-transform: capitalize;
+  transition: all 0.3s ease;
+  margin-bottom: 15px;
+}
+.explore .row .food button:hover {
+  background-color: white !important;
+  color: #ab3550;
+}
